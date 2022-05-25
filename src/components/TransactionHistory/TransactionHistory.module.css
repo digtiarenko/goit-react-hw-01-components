@@ -1,0 +1,17 @@
+.highlight {
+  background-color: rgb(212, 209, 209);
+}
+
+.tableHeader {
+  background-color: rgb(177, 135, 135);
+}
+th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 150px;
+}
+
+td {
+  text-align: center;
+  padding: 5px;
+}
