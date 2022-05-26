@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 import defaultpic from './defaultPic.jpg';
 
-function FriendListItem({ key, avatar = defaultpic, name, isOnline }) {
+function FriendListItem({ avatar = defaultpic, name, isOnline }) {
   return (
-    <li key={key} className={s.item}>
+    <li className={s.item}>
       <span className={isOnline ? s.online : s.offline}></span>
       <img className={s.avatar} src={avatar} alt="User avatar" width="48" />
       <p className={s.name}>{name}</p>
